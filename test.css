@@ -1,0 +1,60 @@
+
+/* Centering container */
+/*
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: none;
+    box-sizing: border-box;
+  }
+  
+  .scene {
+    perspective: 800px;
+    box-sizing: border-box;
+  }
+
+  .cube {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg);
+    animation: spin 15s infinite linear;
+    box-sizing: border-box;
+  }
+  
+  .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .face img {
+    max-width: 90%; 
+    max-height: 90%;
+    object-fit: contain;
+    pointer-events: none; 
+  }
+  
+
+  .front  { transform: translateZ(100px); }
+  .back   { transform: rotateY(180deg) translateZ(100px); }
+  .right  { transform: rotateY(90deg) translateZ(100px); }
+  .left   { transform: rotateY(-90deg) translateZ(100px); }
+  .top    { transform: rotateX(90deg) translateZ(100px); }
+  .bottom { transform: rotateX(-90deg) translateZ(100px); }
+  
+  @keyframes spin {
+    0%   { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+  }
+  */
